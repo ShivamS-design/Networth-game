@@ -1,0 +1,55 @@
+.wallet-balances {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.leaderboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-balances h2 {
+  margin-top: 0;
+}
+
+.wallet-balances span {
+  font-weight: bold;
+  color: #333;
+}
+
+.wallet-balances span:nth-child(2) {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #ddd;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.leaderboard {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 500px; /* adjust the height as needed */
+}
